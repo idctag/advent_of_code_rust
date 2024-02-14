@@ -1,4 +1,6 @@
+use advent::day01::day_one;
+
 fn main() {
-    advent::day01::day_one()
+    day_one()
 }
 
