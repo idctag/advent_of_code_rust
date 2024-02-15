@@ -4,7 +4,7 @@ type Digits = HashMap<String, u32>;
 
 pub fn day_one() {
     let digits: Digits = (0..=9).map(|i| (i.to_string(), i)).collect();
-    let input = fs::read_to_string("data/day1.txt").unwrap();
+    let input = fs::read_to_string("data/day01.txt").unwrap();
 
     let result: u32 = input
         .lines()

@@ -1,6 +1,6 @@
-use advent::day01::day_one;
+#[allow(unused)]
+use advent::{day01::day_one, day02::day_two};
 
 fn main() {
-    day_one()
+    day_two()
 }
-
