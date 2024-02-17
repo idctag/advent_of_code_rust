@@ -2,7 +2,7 @@ use std::{collections::HashMap, fs};
 
 type Digits = HashMap<String, u32>;
 
-pub fn day_one() {
+pub fn run() {
     let digits: Digits = (0..=9).map(|i| (i.to_string(), i)).collect();
     let input = fs::read_to_string("data/day01.txt").unwrap();
 

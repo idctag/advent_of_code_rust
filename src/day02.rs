@@ -1,6 +1,6 @@
 use std::{collections::HashMap, fs};
 
-pub fn day_two() {
+pub fn run() {
     let input = fs::read_to_string("data/day02.txt").unwrap();
 
     let mut result2 = 0;
