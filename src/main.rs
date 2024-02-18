@@ -1,5 +1,5 @@
 use advent::*;
 
 fn main() {
-    days_git::run()
+    day03::run()
 }
